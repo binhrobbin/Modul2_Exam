@@ -20,7 +20,7 @@ public class ProductMenu {
             System.out.println("6. Tìm sản phẩm có giá đắt nhất");
             System.out.println("7. Đọc từ file");
             System.out.println("8. Ghi vào file");
-            System.out.println("0. Thoát");
+            System.out.println("9. Thoát");
             System.out.println("Chọn chức năng: ");
             int choice = Input.number();
             switch (choice) {
@@ -48,7 +48,7 @@ public class ProductMenu {
                 case 8:
                     productService.writeFile();
                     break;
-                case 0:
+                case 9:
                     return;
                 default:
                     System.out.println("... Nhập sai lựa chọn");

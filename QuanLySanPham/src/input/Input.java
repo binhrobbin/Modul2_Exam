@@ -23,15 +23,7 @@ public class Input {
             else System.out.println("Không nhập chuỗi trống");
         }
     }
-    public static int sure() {
-        String regex = "[1-2]";
-        while (true) {
-            String id = scanner.nextLine();
-            if (id.matches(regex)) {
-                return Integer.parseInt(id);
-            } else System.out.println("Chỉ nhập số 1 hoặc 2");
-        }
-    }
+
     public static double inputDoubleNumber() {
         while (true) {
             try {
